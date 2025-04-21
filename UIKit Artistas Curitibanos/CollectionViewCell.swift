@@ -9,4 +9,7 @@ import UIKit
 
 class CollectionViewCell: UICollectionViewCell {
     
+    @IBOutlet weak var obraNomeLabel: UILabel!
+    @IBOutlet weak var obraArtistaLabel: UILabel!
+    @IBOutlet weak var obraImg: UIImageView!
 }
