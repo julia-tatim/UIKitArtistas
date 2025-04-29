@@ -1,0 +1,1 @@
+import UIKitclass ObraViewModel {    private var obras: [ObraDeArte]        init(obras: [ObraDeArte]) {        self.obras = obras    }        func numberOfObras() -> Int {        return obras.count    }        func obra(at index: Int) -> ObraDeArte {        return obras[index]    }}
